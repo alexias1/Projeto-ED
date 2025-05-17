@@ -144,6 +144,7 @@ int main()
         fprintf(arquivo, "%d,%d,%d\n", sorteado, comparacoes_abb, comparacoes_lista);
     }
     
+
     fclose(arquivo);
     printf("Resultados salvos no arquivo resultados.csv.\n");
     

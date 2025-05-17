@@ -12,3 +12,4 @@ plot(dados_ordenados$numero_sorteado, dados_ordenados$comparacoes_abb, type = "l
 lines(dados_ordenados$numero_sorteado, dados_ordenados$comparacoes_lista, col = "red", lwd = 2)
 
 legend("topright", legend = c("ABB", "Lista"), col = c("blue", "red"), lwd = 2)
+
